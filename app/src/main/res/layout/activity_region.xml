@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/viet_intro"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#22000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="NORTHERN"
+            android:textSize="48sp"
+            android:id="@+id/tv_nothern"
+            android:layout_margin="2dp"
+            android:elevation="2dp"
+            android:background="@drawable/shadow_rect"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="MIDDLE"
+            android:textSize="48sp"
+            android:id="@+id/tv_middle"
+            android:layout_margin="2dp"
+            android:elevation="2dp"
+            android:background="@drawable/shadow_rect"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="SOUTHERN"
+            android:textSize="48sp"
+            android:id="@+id/tv_southern"
+            android:layout_margin="2dp"
+            android:elevation="2dp"
+            android:background="@drawable/shadow_rect"/>
+    </LinearLayout>
+
+</RelativeLayout>
