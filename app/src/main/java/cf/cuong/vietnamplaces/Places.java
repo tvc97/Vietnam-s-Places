@@ -27,6 +27,11 @@ public class Places {
     }
 
     static {
+
+        /****************************************************
+         *                    NORTHERN DATA
+         ****************************************************/
+
         northern = new ArrayList<>();
         northern.add(
                 new Place(
@@ -100,5 +105,131 @@ public class Places {
                         R.drawable.pacpo)
         );
 
+        /****************************************************
+         *                    MIDDLE DATA
+         ****************************************************/
+
+        middle = new ArrayList<>();
+
+        middle.add(
+                new Place(
+                        "The Imperial City",
+                        "The construction of the Imperial Citadel, designed for exclusive use by the emperor, his family, and his retinue, started in 1804." +
+                                "The city is protected by a series of four enormous outer walls that are 7-21 meters thick. Access to the walled city is via four arched gates, the best known of which is the Ngo Mon Gate, built in 1834." +
+                                "The Imperial City contains a series of palaces, ornate halls, libraries, residences, and colleges." +
+                                "Much of the City, including the Forbidden Palace, was destroyed during a vicious battle between opposing forces during the Tet Offensive of 1968." +
+                                "One can spend an entire afternoon wandering around the grounds of the Imperial City, viewing the ancient architecture of the Nguyen emperors and scars of recent battles.",
+                        R.drawable.kthue
+                )
+        );
+
+        middle.add(
+                new Place(
+                        "The Tomb Of Emperor Minh Mang",
+                        "Much of the Imperial City was built during the reign of Emperor Minh Mang." +
+                                "His tomb is located at the juncture of two tributaries of the Perfume River surrounded by rolling hills." +
+                                "It is said that it took 13 years to find an appropriate burial site for the Emperor and upon arrival it's not hard to see why this location was chosen." +
+                                "Set within an exquisitely landscaped garden it is a tranquil and idyllic place." +
+                                "The site is considered one of the best examples of Nguyen Dynasty architecture and artwork.",
+                        R.drawable.minhmang
+                )
+        );
+
+        middle.add(
+                new Place(
+                        "The Tomb Of Emperor Tu Duc",
+                        "This tomb is located in an area of rolling hills and pine trees 7km outside Hue." +
+                                "The tranquil grounds are filled with trees, ponds and pavilions where TuDuc would write poetry." +
+                                "Emperor TuDuc had his tomb built 16 years prior to his death and actually wrote his own biography prior to his death.",
+                        R.drawable.tuduc
+                )
+        );
+
+        middle.add(
+                new Place(
+                        "The Tomb Of Emperor Khai Dinh",
+                        "KhaiDinh's was the last Mausoleum built during the Nguyen Dynasty, and is arguably the most beautiful of all the royal tombs." +
+                                "Situated on one of the Chau Mountains, amidst pine, cassava and sugar cane, KhaiDinh's tomb is surrounded by natural beauty." +
+                                "Its architecture is a blend of East and West. It took eleven years to build and was completed in 1931.",
+                        R.drawable.khaidinh
+                )
+        );
+
+        middle.add(
+                new Place(
+                        "Thien Mu Pagoda",
+                        "Thien Mu Pagoda is one of the oldest religious structures in Hue and is also one of the most impressive." +
+                                "It was constructed during the 17th century to worship the legend of a celestial lady." +
+                                "In 1844, Emperor Thieu Tri added the Phuoc Duyen stupa." +
+                                "This seven-storey stupa is 21 meters high, with each level dedicated to one of the various human forms taken by Buddha. In the 1930s and 1940s the Thien Mu Pagoda became an important meeting place for Buddhists." +
+                                "It became well-known worldwide when, in 1963, Thich QuangDuc, a 66 year old resident monk, died after setting himself on fire to protest anti-Buddhist policies of the government of South Vietnam." +
+                                "It is best to visit the pagoda by sampan as it sits on the banks of the Perfume River.",
+                        R.drawable.thienmu
+                )
+        );
+
+        middle.add(
+                new Place(
+                        "My Son",
+                        "My Son is a remarkable archaeological site dating back over a thousand years." +
+                                "Located in a remote forested valley some 70 km west of Da Nang, this former capital and religious center of the Cham Kingdom once contained in excess of 70 styles of temples and pagodas." +
+                                "Although badly damaged by bombing raids in the 1960s the site still has over 20 structures and was declared a UNESCO World Heritage Site in 1999.",
+                        R.drawable.myson
+                )
+        );
+
+        /****************************************************
+         *                    SOUTHERN DATA
+         ****************************************************/
+
+        southern = new ArrayList<>();
+
+        southern.add(
+                new Place(
+                        "Nha Trang",
+                        "The coastal city of Nha Trang is around 275 miles from Ho Chi Minh City and its 4 mile stretch of beach is considered one of the jewels of Vietnam's long coastline." +
+                                "Nha Trang is blessed with deep, quiet and warm waters all the year round." +
+                                "It is surrounded by archipelagos, islands, mountains and white sand beaches which make it a wonderful and attractive tourist resort." +
+                                "The magnificent coral sea bed also makes it ideal for scuba diving and snorkelling.",
+                        R.drawable.nhatrang
+                )
+        );
+
+        southern.add(
+                new Place(
+                        "Dalat",
+                        "Dalat is located in Lam Dong province, approximately 125 miles northeast of Ho Chi Minh City, at an elevation of 1,500 m. Founded by the French colonial administration in 1912, Dalat was once called Le Petit Paris and was established as a place to retreat to from Saigon during the hot season.\n" +
+                                "The French traders who settled here built large European-style villas and many of these villas have survived the Vietnam War undamaged giving the town a unique appearance. The colonial architecture combined with the stunning natural backdrop of forests, waterfalls and lakes make Dalat one of Vietnam’s most beautiful towns.\n" +
+                                "As well as the town itself the Central Highlands, where Dalat lies, offer opportunities to meet the ethnic minorities and trek through some stunning landscapes.",
+                        R.drawable.dalat
+                )
+        );
+
+        southern.add(
+                new Place(
+                        "Ho Chi Minh City",
+                        "Ho Chi Minh City, formerly known as Saigon, is a bustling, energetic city which is embracing the new lease of economic life that Vietnam is experiencing. With its tropical climate and constant buzz it may have more in common with Bangkok than the more sedate Hanoi, which is some 1,080 miles away. That said, as with Hanoi, the French legacy is evident in the wonderful colonial buildings that dominate the downtown area and you are never far away from the face of Ho Chi Minh himself as he stares down at you from the Post Office wall or from the various statues erected in his honour.\n" +
+                                "Ho Chi Minh City has much to offer as a short break destination in its own right and we have outlined a number of the sightseeing options, in and around, the city below.",
+                        R.drawable.hcm
+                )
+        );
+
+        southern.add(
+                new Place(
+                        "Mekong Delta",
+                        "At the southernmost part of Vietnam lies a flat and lush area of land known as the Mekong Delta. The miles of inter-connecting canals and rivers here are known by locals simply as \"the green lungs of the Mekong.\" These ‘lungs’ are responsible for the vast quantities of rice, fruit and vegetables that are produced in the region, much of which ends up in the Delta’s fascinating and bustling floating markets.\n" +
+                                "It makes a great escape from the pressures of everyday life, to spend a few days in the Delta coursing through its veins and relaxing as you soak up the local way of life and glimpse a totally different part of the country. Recently it has also become possible to travel from Ho Chi Minh City all the way to Angkor using the Mekong as your gateway to Cambodia.",
+                        R.drawable.mekong
+                )
+        );
+
+        southern.add(
+                new Place(
+                        "Phu Quoc Island",
+                        "Sitting in the Gulf of Thailand, the island of Phu Quoc is about the same size as Singapore and is the largest of all the Vietnamese islands. The island offers visitors a mix of mountains, lush forest covered hills, waterfalls, bubbling streams and some of Vietnam’s best beaches. It is also one of the few places in Vietnam that you can enjoy the sun setting over the sea.\n" +
+                                "Phu Quoc Island has long had the natural ingredients that one expects from a beach holiday but now it has the hotels to match.",
+                        R.drawable.phuquoc
+                )
+        );
     }
 }
